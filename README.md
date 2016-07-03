@@ -9,4 +9,5 @@ Something new I did on this project was implementing a horizontal scroll list. Y
 
 ![Songs List](http://throw.rocks/android-projects/musical-structure/songs-list.PNG)
 ![Song Details](http://throw.rocks/android-projects/musical-structure/song-details.PNG)
+![Song Details](http://throw.rocks/android-projects/musical-structure/song-details2.PNG)
 ![Add Songs](http://throw.rocks/android-projects/musical-structure/add-songs.PNG)
