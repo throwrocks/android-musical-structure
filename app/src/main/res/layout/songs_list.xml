@@ -5,21 +5,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="rocks.athrow.android_musical_structure.MainActivity">
+    tools:context=".SongsList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFECB3"
+        android:padding="16dp"
+        android:text="@string/song_list_description" />
 
     <ListView
-        android:layout_weight="1"
         android:id="@+id/songs_list"
         android:layout_width="match_parent"
-        android:layout_height="0dp">
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
     </ListView>
+
     <LinearLayout
-        android:layout_gravity="bottom"
-        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <include layout="@layout/player"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1">
+
+        <include layout="@layout/player" />
     </LinearLayout>
 </LinearLayout>
 

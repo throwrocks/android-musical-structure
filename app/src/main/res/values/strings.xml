@@ -1,8 +1,33 @@
 <resources>
     <string name="app_name">Musical Structure</string>
 
-    <string name="section1_title">My Library</string>
-    <string name="section2_title">Music Store</string>
-    <string name="section3_title">Song Details</string>
+    <!--Activity Descriptions-->
+    <string name="song_list_description">When you open the app a list with all your songs appears below.
+        If you don\'t have any songs, a message appears with a button to
+        scan your device for media files.\n\nTapping a song will open the song details screen.</string>
+
+
+    <!--Song Item-->
+    <string name="song_name_placeholder">Song Name</string>
+    <string name="song_author_placeholder">Song Author</string>
+    <string name="song_description_placeholder">Cupcake ipsum dolor sit. Amet croissant jelly-o
+        croissant bear claw bear claw. Chocolate jujubes gummies jelly-o sweet roll dragée chocolate.
+        Donut cupcake chocolate bar. Sweet candy pastry tootsie roll cake. Dragée jelly beans toffee
+        brownie sweet cheesecake pastry.\n\nLemon drops toffee chocolate sesame snaps icing.
+        Cotton candy marzipan gingerbread cupcake tiramisu danish powder icing sugar plum.
+        Carrot cake chocolate cake tart brownie dragée. Dragée sugar plum sugar plum tiramisu
+        gingerbread tootsie roll. Marzipan marzipan sesame snaps tootsie roll cheesecake gingerbread.
+        Lollipop marzipan carrot cake. Biscuit halvah brownie cookie candy muffin. Pudding dessert
+        gummi bears candy. Pudding icing cotton candy. Jelly gingerbread danish sweet roll jelly-o
+        sweet roll ice cream. Tootsie roll jelly-o icing. Bear claw croissant chocolate. Chocolate
+        biscuit apple pie chocolate cake bear claw gingerbread gingerbread gummies.\n\nFruitcake
+        macaroon marshmallow pie apple pie sweet roll chocolate jelly beans.
+        Cupcake liquorice croissant marshmallow cotton candy cotton candy liquorice pastry.
+        Lollipop topping cotton candy dragée cake. Tootsie roll brownie biscuit sugar plum
+        carrot cake chocolate bar tiramisu candy. Tiramisu jelly beans topping jelly-o
+        halvah dragée pudding. Gummi bears cookie jelly candy marshmallow sesame snaps macaroon.
+        Pudding chocolate cake dessert. Topping dessert halvah marzipan. Soufflé carrot cake
+        topping cheesecake chocolate cake marshmallow caramels.</string>
+
 
 </resources>

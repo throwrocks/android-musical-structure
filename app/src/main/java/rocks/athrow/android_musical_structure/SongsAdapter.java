@@ -1,10 +1,12 @@
 package rocks.athrow.android_musical_structure;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -19,7 +21,6 @@ class SongsAdapter extends BaseAdapter {
     private static LayoutInflater inflater = null;
 
     public SongsAdapter(Context context, ArrayList<String[]> data) {
-        // TODO Auto-generated constructor stub
         this.context = context;
         this.data = data;
         inflater = (LayoutInflater) context
@@ -28,30 +29,38 @@ class SongsAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        // TODO Auto-generated method stub
         return data.size();
     }
 
     @Override
     public Object getItem(int position) {
-        // TODO Auto-generated method stub
         return data.get(position);
     }
 
     @Override
     public long getItemId(int position) {
-        // TODO Auto-generated method stub
         return position;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // TODO Auto-generated method stub
-        View vi = convertView;
-        if (vi == null)
-            vi = inflater.inflate(R.layout.song_item, null);
-        TextView text = (TextView) vi.findViewById(R.id.song_title);
-        text.setText(data.get(position)[0]);
-        return vi;
+        View songItemLayout = convertView;
+        if (songItemLayout == null)
+            songItemLayout = inflater.inflate(R.layout.song_item, null);
+        // Set the data on the views
+        TextView songTitle = (TextView) songItemLayout.findViewById(R.id.song_title);
+        TextView songAuthor = (TextView) songItemLayout.findViewById(R.id.song_author);
+        songTitle.setText(data.get(position)[0]);
+        songAuthor.setText(data.get(position)[1]);
+        // Set an onClickListener on the song items to open the song details
+        LinearLayout songItem = (LinearLayout) songItemLayout.findViewById(R.id.song_item);
+        songItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent songDetails = new Intent(context, SongDetails.class);
+                context.startActivity(songDetails);
+            }
+        });
+        return songItemLayout;
     }
 }
