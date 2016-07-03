@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <string name="section1_title">My Library</string>
+    <string name="section2_title">Music Store</string>
+    <string name="section3_title">Song Details</string>
+
+</resources>
