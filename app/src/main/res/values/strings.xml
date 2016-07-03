@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Musical Structure</string>
+    <string name="app_name">My Songs</string>
 
     <!--Activity Descriptions-->
     <string name="song_list_description">When you open the app a list with all your songs appears below.
