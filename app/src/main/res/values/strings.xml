@@ -3,13 +3,13 @@
 
     <!--Activity Descriptions-->
     <string name="song_list_description">When you open the app a list with all your songs appears below.
-        If you don\'t have any songs, a message appears with a button to
-        scan your device for media files.\n\nTapping a song will open the song details screen.</string>
+        If you don\'t have any songs, a message will appear telling you to add songs by tapping
+        the fab button.</string>
 
     <!--Song Details-->
     <string name="song_details_similar_songs">Similar Songs</string>
     <string name="song_details_description">This screen shows the details for the selected song.
-    From here you can play the song by tapping on the fab button. You can also see similar songs in a
+    From here you can play the song by tapping on "Play Now" button. You can also see similar songs in a
     horizontal list. If you tap a similar song a new screen will open with the details for that song.</string>
     <string name="song_details_content_description_album_art">The album\'s cover art</string>
     <string name="song_details_play_now">Play Now</string>
