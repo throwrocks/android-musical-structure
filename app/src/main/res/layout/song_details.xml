@@ -5,37 +5,45 @@
     android:orientation="vertical"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFECB3"
+        android:padding="16dp"
+        android:text="@string/song_details_description" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
-
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_marginBottom="16dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <ImageView
-
+                    android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image_placeholder_dark_large"
-                    android:scaleType="fitCenter" />
+                    android:contentDescription="@string/song_details_content_description_album_art"
+                    android:scaleType="center" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_height="wrap_content">
+                    android:layout_marginBottom="8dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -57,6 +65,18 @@
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/media_controls_play_dark_small"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:text="@string/song_details_play_now" />
+
+
                 </LinearLayout>
 
 
@@ -65,22 +85,24 @@
 
             <TextView
 
-                android:textSize="18sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Similar Songs"/>
+                android:text="@string/song_details_similar_songs"
+                android:textSize="18sp" />
+
             <HorizontalScrollView
-                android:layout_marginBottom="16dp"
                 android:id="@+id/related_albums"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <include layout="@layout/related_songs_list"/>
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <include layout="@layout/related_songs_list" />
             </HorizontalScrollView>
 
             <TextView
-                android:paddingBottom="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
                 android:text="@string/song_description_placeholder" />
 
         </LinearLayout>
