@@ -36,5 +36,20 @@
         Pudding chocolate cake dessert. Topping dessert halvah marzipan. Soufflé carrot cake
         topping cheesecake chocolate cake marshmallow caramels.</string>
 
+    <!--Player-->
+    <string name="player_now_playing">Now Playing</string>
+    <string name="player_play">Play Song</string>
+    <string name="player_previous">Go to the previous song</string>
+    <string name="player_next">Go to the next song</string>
 
+    <!--Add Songs-->
+    <string name="add_songs_description">On this screen you will have the option to add media files
+         from your device storage. You will also see a list of online music store where you can buy
+        songs.</string>
+    <string name="add_songs_from_device">Add songs from your device</string>
+    <string name="add_songs_from_store">Buy songs online</string>
+    <string name="add_songs_scan_device">Scan device</string>
+    <string name="add_songs_store_name_placeholder">Store Name</string>
+    <string name="add_songs_store_url_placeholder">http://musicstore.com</string>
+    <string name="add_songs_store_description_placeholder">Hundreds of albums from great artists</string>
 </resources>

@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            android:text="Now Playing"
+            android:text="@string/player_now_playing"
             android:textColor="#FFFFFF" />
 
         <TextView
@@ -40,23 +40,24 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/medial_control_previous"
-        android:contentDescription="Go to previous song" />
+        android:contentDescription="@string/player_previous" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/media_controls_play"
-        android:contentDescription="Play the song" />
+        android:contentDescription="@string/player_play" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/media_controls_next"
-        android:contentDescription="Go to the next song" />
+        android:contentDescription="@string/player_next" />
 </LinearLayout>
