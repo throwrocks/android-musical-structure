@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">My Songs</string>
 
-    <!--Activity Descriptions-->
+    <!--Songs List-->
     <string name="song_list_description">When you open the app a list with all your songs appears below.
         If you don\'t have any songs, a message will appear telling you to add songs by tapping
-        the fab button.</string>
+        the fab + button. When you do so, a new activity opens to add songs. In this new activity you
+        can scan your device for media files, or you can visit various online music stores to buy new songs.</string>
 
     <!--Song Details-->
     <string name="song_details_similar_songs">Similar Songs</string>

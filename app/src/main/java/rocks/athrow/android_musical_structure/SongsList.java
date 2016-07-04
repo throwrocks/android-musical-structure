@@ -30,7 +30,7 @@ public class SongsList extends AppCompatActivity {
         // Set an adapter on the list view
         songList = (ListView) findViewById(R.id.songs_list);
         songList.setAdapter(new SongsAdapter(this, songsList ));
-        // Set an on click listener on the add_song fag button
+        // Set an on click listener on the add_song fab button
         FloatingActionButton addSongsFab = (FloatingActionButton) findViewById(R.id.add_songs);
         addSongsFab.setOnClickListener(new View.OnClickListener() {
             @Override
