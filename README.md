@@ -7,7 +7,7 @@ The app is not a funcional music player but rather a "structure that is suitable
 
 Something new I did on this project was implementing a horizontal scroll list. You can see it on the song details layout for the related songs section. Below some screenshots.
 
-![Songs List](http://throw.rocks/android-projects/musical-structure/songs-list.PNG)
-![Song Details](http://throw.rocks/android-projects/musical-structure/song-details.PNG)
-![Song Details](http://throw.rocks/android-projects/musical-structure/song-details2.PNG)
-![Add Songs](http://throw.rocks/android-projects/musical-structure/add-songs.PNG)
+![Songs List](https://github.com/throwrocks/android-project-images/blob/master/musical-structure/songs-list.PNG)
+![Song Details](https://github.com/throwrocks/android-project-images/blob/master/musical-structure/song-details.PNG)
+![Song Details](https://github.com/throwrocks/android-project-images/blob/master/musical-structure/song-details2.PNG)
+![Add Songs](https://github.com/throwrocks/android-project-images/blob/master/musical-structure/add-songs.PNG)
